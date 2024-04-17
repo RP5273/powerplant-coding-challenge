@@ -37,6 +37,7 @@ Docker Desktop
 3. Build the project to restore NuGet packages.
 4. Expose an API endpoint (e.g., /productionplan) that accepts a POST request with the payload structure defined in the example_payloads directory.
 5. Build of the solution a docker image is build and deployed in docker for testing, 
+6. Set the run to Container (Dockerfile)
 
 ### TODO
 1. the docker file can be used later for CI/CD intergration to build the image and put it in a Harbor source registry to host on Kubernetees for example
